@@ -63,6 +63,7 @@ class ProfileFragment : Fragment() {
                         it.clear()
                     }
                 }
+//                Firebase.auth.signOut()
                 // Todo Navigate to Auth Activity
             }catch (e : Exception){
                 Toast.makeText(activity,e.message, Toast.LENGTH_SHORT).show()
